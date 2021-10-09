@@ -9,4 +9,86 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+
+/*8px*/
+/*16px*/
+/*24px*/
+/*32px*/
+/*48px*/
+/*64px*/
+/*96px*/
+/*128px*/
+
+/*1rem*/
+/*1.25rem*/
+/*1.5rem*/
+/*2rem*/
+
+/*primary green*/
+/*hsl(160, 100%, 30%)*/
+
+/*secondary gold*/
+/*hsl(45, 100%, 50%) (lighter)*/
+/*hsl(45, 100%, 40%) (darker)*/
+
+/*grays*/
+/*hsl(0, 0%, 0%) (black)*/
+/*hsl(0, 0%, 10%) (very dark)*/
+/*hsl(0, 0%, 30%) (dark)*/
+/*hsl(0, 0%, 40%) (medium)*/
+/*hsl(0, 0%, 60%) (light)*/
+/*hsl(0, 0%, 100%) (white)*/
+
+
+
+strong {
+  color: hsl(160, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0, 0%, 60%);
+  border-top: 4px solid hsl(0, 0%, 40%);
+  height: 100%;
+}
+
+
+.max-width-wrapper {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+.intro-chunk {
+  padding: 0 16px;
+  margin: 64px 0;
+  max-width: 320px;
+}
+
+.intro-chunk p {
+  margin: 32px 0;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.max-width-wrapper {
+
+}
+
+.card {
+  background-color: white;
+  border-bottom: 4px solid hsl(0, 0%, 40%);
+  padding: 16px;
+  margin: 32px 0;
+  margin-bottom: 0;
+}
+
+.indented-heading {
+  background-color: hsl(45, 100%, 50%);
+  border-bottom: 4px solid hsl(45, 100%, 40%);
+  width: fit-content;
+  padding: 16px 40px 16px 40px;
+  margin-left: -40px;
+  margin-top: -8px;
+  font-size: 1.25rem;
+}
